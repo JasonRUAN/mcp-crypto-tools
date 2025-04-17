@@ -1,10 +1,10 @@
 {
-    "name": "@jasonruan/js-mcp-crypto-tools",
-    "version": "0.0.9",
+    "name": "@jasonruan/mcp-crypto-tools",
+    "version": "0.0.1",
     "description": "JS MCP Crypto Tools",
     "main": "dist/index.js",
     "bin": {
-        "js-mcp-crypto-tools": "./dist/index.js"
+        "mcp-crypto-tools": "./dist/index.js"
     },
     "scripts": {
         "build": "tsc",

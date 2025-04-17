@@ -1,11 +1,11 @@
 ```json
 {
   "mcpServers": {
-    "js-mcp-crypto-tools": {
+    "mcp-crypto-tools": {
         "command": "npx",
         "args": [
             "-y",
-            "@jasonruan/js-mcp-crypto-tools@latest"
+            "@jasonruan/mcp-crypto-tools@latest"
         ]
     }
   }
