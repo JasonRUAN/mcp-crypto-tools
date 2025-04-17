@@ -1,1 +1,13 @@
-Minimalistic template for using TypeScript with Node.js and ESM.
+```json
+{
+  "mcpServers": {
+    "js-mcp-crypto-tools": {
+        "command": "npx",
+        "args": [
+            "-y",
+            "@jasonruan/js-mcp-crypto-tools@latest"
+        ]
+    }
+  }
+}
+```
