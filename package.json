@@ -1,0 +1,37 @@
+{
+    "name": "@jasonruan/js-mcp-crypto-tools",
+    "version": "0.0.9",
+    "description": "JS MCP Crypto Tools",
+    "main": "dist/index.js",
+    "bin": {
+        "js-mcp-crypto-tools": "./dist/index.js"
+    },
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/index.js",
+        "dev": "tsx src/index.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "packageManager": "pnpm@10.6.3",
+    "devDependencies": {
+        "@types/node": "^22.13.11",
+        "ts-node": "^10.9.2",
+        "tsx": "^4.19.3",
+        "typescript": "^5.8.2"
+    },
+    "pnpm": {
+        "onlyBuiltDependencies": [
+            "esbuild"
+        ]
+    },
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.9.0",
+        "commander": "^13.1.0",
+        "pino": "^9.6.0",
+        "pino-pretty": "^13.0.0",
+        "sm-crypto": "^0.3.13",
+        "zod": "^3.24.3"
+    }
+}
