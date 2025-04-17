@@ -6,6 +6,8 @@ import {
     base64Encode,
     base64EncodeArgs,
 } from "./tools/base64";
+import { parsePEM, pemArgs } from "./tools/pem";
+import { writeFile, writeFileArgs } from "./tools/write_file";
 
 export const server = new McpServer({
     name: "mcp-crypto-tools",
@@ -33,3 +35,7 @@ server.tool(
     base64DecodeArgs,
     base64Decode
 );
+
+server.tool("parse-pem-file", "parsepem file", pemArgs, parsePEM);
+
+server.tool("write-file", "write file", writeFileArgs, writeFile);
