@@ -1,6 +1,6 @@
 {
     "name": "@jasonruan/mcp-crypto-tools",
-    "version": "0.0.9",
+    "version": "0.0.12",
     "description": "MCP Crypto Tools",
     "main": "dist/index.js",
     "bin": {
