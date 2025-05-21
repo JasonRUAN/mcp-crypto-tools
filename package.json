@@ -1,10 +1,10 @@
 {
-    "name": "@jasonruan/mcp-crypto-tools",
-    "version": "0.0.9",
-    "description": "MCP Crypto Tools",
+    "name": "@jasonruan/starknet-ai-goal-mcp",
+    "version": "0.0.11",
+    "description": "Starknet AI Goal MCP",
     "main": "dist/index.js",
     "bin": {
-        "mcp-crypto-tools": "./dist/index.js"
+        "starknet-ai-goal-mcp": "./dist/index.js"
     },
     "scripts": {
         "build": "tsc",
@@ -30,10 +30,12 @@
         "@modelcontextprotocol/sdk": "^1.9.0",
         "@types/node-forge": "^1.3.11",
         "commander": "^13.1.0",
+        "dotenv": "^16.5.0",
         "node-forge": "^1.3.1",
         "pino": "^9.6.0",
         "pino-pretty": "^13.0.0",
         "sm-crypto": "^0.3.13",
+        "starknet": "6.22.0",
         "zod": "^3.24.3"
     }
 }
